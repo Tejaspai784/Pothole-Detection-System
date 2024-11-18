@@ -49,7 +49,7 @@ def capture():
     bot.sendPhoto(chat_id, photo = open('./image.jpg', 'rb'))
 
 
-bot = telepot.Bot('6262108229:AAGCOiFUfFqWfTH1f65RqBN7H3ZVGVP3Nfg')
+bot = telepot.Bot('add ur bot id')
 chat_id='6278125319'
 bot.message_loop(handle)
 
